@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const AnnotationDataSchema = new mongoose.Schema({
     title: String,
-    Notes: String,
+    notes: String,
     priority: Boolean,
 })
 

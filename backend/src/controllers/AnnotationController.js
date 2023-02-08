@@ -21,6 +21,7 @@ module.exports = {
       notes,
       priority,
     });
+    console.log(annotationCreated.notes)
     return response.json(annotationCreated);
   },
 
