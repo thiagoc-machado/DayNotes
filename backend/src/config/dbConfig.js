@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.set('strictQuery', false);
 
 const dbConfig =
   'mongodb+srv://thiago:140106@cluster0.6s6tjgr.mongodb.net/annotations?retryWrites=true&w=majority';

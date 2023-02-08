@@ -1,14 +1,10 @@
 const express = require('express');
+const routes = require('./routes');
+
 const app = express();
 require('./config/dbConfig');
 
 app.use(express.json());
-
-app.get('/', (request, response) => {
-  return response.json({
-    nome: 'Thiago',
-    profissão: 'Perigo',
-  });
-});
+app.use(routes);
 
 app.listen(3333);
