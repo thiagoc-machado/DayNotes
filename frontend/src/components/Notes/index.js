@@ -9,11 +9,9 @@ function Notes() {
           <div>x</div>
         </div>
 
-        <textarea>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-          laborum repudiandae, illo omnis officia adipisci reiciendis officiis
-          culpa assumenda perspiciatis nobis expedita, sapiente labore?
-          Perspiciatis repudiandae cumque optio iure quod!
+        <textarea defaultValue='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+          laborum repudiandae'>
+          
         </textarea>
         <span>!</span>
       </li>

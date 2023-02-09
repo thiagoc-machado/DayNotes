@@ -60,3 +60,9 @@ li.notepad-infos span:hover{
 color: #eb8f7a;
 transition: .2s;
 }
+
+@media (max-width:600px){
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}

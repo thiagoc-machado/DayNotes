@@ -6,3 +6,18 @@
     flex-direction: row;
     align-items: flex-start;
 }
+
+@media (max-width: 1000px){
+    #app{
+        flex-direction: column;
+        padding: 20px 10px;
+        align-items: unset;
+    }
+    #app main {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #app aside{
+        width: 100%;
+    }
+}
